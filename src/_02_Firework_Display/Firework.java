@@ -53,7 +53,7 @@ for (int i = 0; i < sparks.length; i++) {
 			if(s.yVelocity >= 0 && !s.fire) {
 				Random r = new Random();
 				s.xVelocity = r.nextInt(40) - 20;
-				s.yVelocity += -r.nextInt(10) - 5;
+				s.yVelocity += -r.nextInt(40) - ;
 				s.size = r.nextInt(7) + 1;
 				s.fire = true;
 			}
